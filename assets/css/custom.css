@@ -74,6 +74,7 @@ h6 {
 }
 
 .post header h1 {
+	color: #ffffff;
 	font: 900 40px/1.7em 'Noto Serif',  'Noto Sans', "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Arial, serif;
 	margin-bottom: 20px;
 	letter-spacing: -1px;
