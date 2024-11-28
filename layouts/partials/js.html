@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded",
 
 
 {{ if .Site.Params.enableGoogleAnalytics }}
-  {{ template "_internal/google_analytics_async.html" . }}
+  {{ partial "google_analytics_preconnect.html" . }}
 {{ end }}
 
 {{ if .Site.Params.enableBaiduAnalytics }}

@@ -17,13 +17,11 @@
   {{ with .Site.Params.twitter }}
     <meta name="twitter:site" content="@{{ . }}"/>
   {{ end }}
-  {{ range .Site.Authors }}
-    {{ with .twitter }}
+    {{ with .Site.Params.twitter  }}
       <meta name="twitter:creator" content="@{{ . }}"/>
     {{ end }}
-  {{ end }}
   <!-- no post authors, show site author -->
-  {{ if eq (len .Site.Authors) 0 }}
+  {{ if eq (len .Site.Params.Author) 0 }}
     <meta name="twitter:creator" content="@{{ .Site.Params.author }}"/>
   {{ end }}
 
