@@ -6,8 +6,6 @@ date: 2024-12-13T20:02:37+07:00
 
 Halaman ini terinspirasi oleh [Derek Sivers](https://sivers.org/now). Disini, saya menampilkan apa yang sedang saya kerjakan, apa yang sedang dipelajari, dan hal umum lainnya yang bisa dibagikan secara terbuka kepada kalian. Saya menyarankan kalian untuk memiliki halaman seperti ini juga!!
 
-Diperbarui pada 13 Desember 2024. Halaman ini akan diperbarui secara berkala.
-
 ## Pekerjaan
 
 Saya baru saja berpindah perusahaan ke [Alva Digital](https://alva.digital). Jabatannya masih tetap sama, **Lead Engineer**. Di **Alva** saya memimpin tim tech di divisi baru, **Alva Intelligence** yang bertanggung jawab untuk mengembangkan produk-produk yang berkaitan dengan AI. Timnya sebagian besar masih sama seperti di perusahaan sebelumnya di [Maleo Creative Agency](https://maleo.agency).

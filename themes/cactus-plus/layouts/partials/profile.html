@@ -1,4 +1,4 @@
-{{ $image := resources.Get "images/avatar.jpeg" }}
+{{ $image := resources.Get "images/avatar.png" }}
 {{ $smallImage := $image.Resize "1x1 q1 Box webp" }}
 {{ $image = $image.Resize "130x q80 Box webp" }}
 
