@@ -1,37 +1,35 @@
 ---
 title: Now
 description: Dscribe what i'm doing right now.
-date: 2019-04-20T14:02:37+02:00
+date: 2024-12-13T20:02:37+07:00
 ---
-Inspired by [Derek Sivers](https://sivers.org/now). This page may give you general information about me.
 
-## Skills
+Halaman ini terinspirasi oleh [Derek Sivers](https://sivers.org/now). Disini, saya menampilkan apa yang sedang saya kerjakan, apa yang sedang dipelajari, dan hal umum lainnya yang bisa dibagikan secara terbuka kepada kalian. Saya menyarankan kalian untuk memiliki halaman seperti ini juga!!
 
-I am proficiency working on Unix/Linux environment. I have 8+ year experience in several programming languages such as PHP, C#, Javascript, Ruby and Python for work requirements.
+Diperbarui pada 13 Desember 2024. Halaman ini akan diperbarui secara berkala.
 
-## Work
+## Pekerjaan
 
-Currently working as Tech Lead at **[Maleo Creative Agency](https://maleo.agency)** and **[Surge](surgeinteractive.asia)**, Former Tech lead at **[Upana Studio](https://www.upanastudio.com)** and previously worked as Team Lead of Backend Developer at [Sehati.co](https://Sehati.co)
+Saya baru saja berpindah perusahaan ke [Alva Digital](https://alva.digital). Jabatannya masih tetap sama, **Lead Engineer**. Di **Alva** saya memimpin tim tech di divisi baru, **Alva Intelligence** yang bertanggung jawab untuk mengembangkan produk-produk yang berkaitan dengan AI. Timnya sebagian besar masih sama seperti di perusahaan sebelumnya di [Maleo Creative Agency](https://maleo.agency).
 
-## Relationship
+Oh ya, dua perusahaan ini adalah anak perusahaan dari [Future Creative Network](https://futurecreativenetwork.com) jadi perpindahannya tanpa perlu mendaftar pekerjaan baru. Bedanya, di Alva saya lebih banyak berkaitan dengan produk seperti pekerjaan saya dua tahun sebelumnya sebagai **Lead Backend** di [Sehati.co](https://sehati.co).
 
-.....
+## Kemampuan
 
-## Personality
+Selama 2 tahun, saya kembali berkutat dengan; PHP, TypeScript, javaqscript, dan Python. Menariknya, banyak bahasa/framework baru yang saya coba seperti NextJS, hono, remix, elysiaJS dan Zig (bagus banget).
 
-Currently I'm an ESFP. Check [16 Personality](https://www.16personalities.com/) for more information.
+## Hubungan
 
-## Book
+Di tahun ini, akhirnya saya udah nggk sendirian. Menikah dengan [Dewi Rahma Ahmadi](https://www.linkedin.com/in/dewi-rahma-ahmadi-61391ab4/) menjadi salah satu keputusan terbaik yang pernah saya ambil.
 
--﻿ Talking to Strangers by Malcolm Gladwell
--﻿ Atomic Habits by James Clear
+## Tempat tinggal
 
-## Social Media
+Setelah 5 tahun di Ambon, akhirnya saya pindah ke Makassar dan menetap. Pekerjaan tetap remote, jadi saya bisa bekerja dari mana saja.
 
-linkedin, github, and twitter.
+## Kehidupan sehari-hari
 
-## Coding activity
+Saya merawat 2 ekor kucing; Miko (Maine Coon) dan Miki (oren). Selain bekerja, saya banyak menghabiskan waktu untuk belajar hal baru dan mengisi acara teknologi sebagai pembicara. Di bulan ini, saya mengisi acara AWS UGID dengan materi Retreival Augmented Generation (RAG) menggunakan teknologi AWS Bedrook.
 
-<br>
+## Sosial Media
 
-<figure><embed src="https://wakatime.com/share/@c5b47ecb-a59c-4d51-879a-5ed51b3b57ee/3d6095f0-d128-4e2f-af41-7252da198025.svg"></embed></figure>
+Saya suka menulis di [X/Twitter](https://x.com/amqnese), berpikir untuk menjadi influencer di bidang teknologi.
