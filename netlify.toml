@@ -33,6 +33,7 @@ command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
 HUGO_VERSION = "0.152.2"
 
 [context.next.environment]
+HUGO_VERSION = "0.152.2"
 HUGO_ENABLEGITINFO = "true"
 
 [[plugins]]
