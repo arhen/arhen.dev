@@ -10,7 +10,8 @@ theme = "cactus-plus"
 hasCJKLanguage = false
 
 # pagination
-paginate = 3
+[pagination]
+pagerSize = 3
 
 [markup]
   [markup.goldmark]
