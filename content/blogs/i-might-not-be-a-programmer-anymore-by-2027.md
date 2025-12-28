@@ -1,5 +1,5 @@
 ---
-title: I might be not a programmer anymore by 2027
+title: I might not be a programmer anymore by 2027
 description: A reflection on how AI is radically transforming software development, and why I might stop coding entirely by 2027 while still being a Software Engineer.
 date: 2025-12-28T10:00:00.000Z
 tags:
