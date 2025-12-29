@@ -1,8 +1,11 @@
+const purgecss = require('@fullhuman/postcss-purgecss').default;
+const autoprefixer = require('autoprefixer');
+
 module.exports = {
-  plugins: {
-    '@fullhuman/postcss-purgecss': {
+  plugins: [
+    purgecss({
       content: ['themes/cactus-plus/layouts/**/*.html', 'layouts/**/*.html'],
-      whitelist: [
+      safelist: [
         'highlight',
         'language-bash',
         'pre',
@@ -12,10 +15,12 @@ module.exports = {
         'h4',
         'ul',
         'li',
+        /^image_placeholder$/,
+        /^placeholder$/,
+        /^loaded$/,
+        /\.placeholder img\.loaded/,
       ],
-      whitelistPatterns: [/^image_placeholder$/, /^placeholder$/, /^loaded$/, /\.placeholder img\.loaded/],
-    },
-    autoprefixer: {},
-    // cssnano: { preset: 'default' }
-  }
+    }),
+    autoprefixer(),
+  ]
 };
