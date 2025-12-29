@@ -14,6 +14,8 @@ Sejauh ini pekerjaan berjalan mulus dan lancar. Tahun ini kami berhasil meluncur
 
 Produk yang kami kembangkan sudah digunakan oleh beberapa big client seperti L'Oréal Paris, Garnier, Maybelline, Dove, Silverqueen, bahkan Telkomsel untuk beberapa lini bisnisnya (Simpati, Halo & Corporate, by.U, Home Broadband, Telco). Kami juga telah melayani lebih dari 40+ creative agencies.
 
+[![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=arhen&theme=github-compact&days=90&hide_border=true)](https://github.com/arhen)
+
 ## Kemampuan
 
 Tahun ini banyak berkutat dengan Python, TypeScript/JavaScript, dan AI. Saya menggunakan framework agentic yang powerful seperti [Agno](https://www.agno.com/). Ternyata saya lebih tertarik menggunakan [Bun](https://bun.sh) + [Elysia](https://elysiajs.com) untuk development.
