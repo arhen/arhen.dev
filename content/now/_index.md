@@ -12,6 +12,8 @@ Sudah kurang lebih setahun bekerja di [ALVA Digital](https://alva.digital) sebag
 
 Sejauh ini pekerjaan berjalan mulus dan lancar. Tahun ini kami berhasil meluncurkan 2 produk: [frnd.io](https://frnd.io) dan video stitching. Selain itu, saya juga turut membantu perusahaan [memenangkan beberapa national award](https://www.linkedin.com/posts/alvadigitalnetwork_marketing-excellence-awards-2025-activity-7384528001616760832-GQmv).
 
+Produk yang kami kembangkan sudah digunakan oleh beberapa big client seperti L'Oréal Paris, Garnier, Maybelline, Dove, Silverqueen, bahkan Telkomsel untuk beberapa lini bisnisnya (Simpati, Halo & Corporate, by.U, Home Broadband, Telco). Kami juga telah melayani lebih dari 40+ creative agencies.
+
 ## Kemampuan
 
 Tahun ini banyak berkutat dengan Python, TypeScript/JavaScript, dan AI. Saya menggunakan framework agentic yang powerful seperti [Agno](https://www.agno.com/). Ternyata saya lebih tertarik menggunakan [Bun](https://bun.sh) + [Elysia](https://elysiajs.com) untuk development.
