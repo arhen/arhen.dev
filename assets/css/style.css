@@ -843,6 +843,104 @@ a.symbol:hover {
 }
 
 /**
+ * Sticky TOC Sidebar
+ */
+
+.toc-sidebar {
+    position: fixed;
+    right: calc((100vw - 870px) / 2 - 220px - 24px);
+    top: 90px;
+    display: none;
+    z-index: 50;
+}
+
+.toc-sticky {
+    max-height: calc(100vh - 180px);
+    overflow-y: auto;
+    padding: 16px;
+    background: transparent;
+    border-radius: 8px;
+    border: none;
+}
+
+.dark-mode .toc-sticky {
+    background: #1a1a1a;
+    border-color: #333;
+}
+
+.toc-sticky h4 {
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+    color: #666;
+}
+
+.dark-mode .toc-sticky h4 {
+    color: #999;
+}
+
+.toc-sticky #TableOfContents {
+    margin: 0;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.toc-sticky #TableOfContents ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.toc-sticky #TableOfContents ul li {
+    margin: 0;
+    padding: 4px 0;
+    list-style: none;
+}
+
+.toc-sticky #TableOfContents ul ul {
+    padding-left: 12px;
+}
+
+.toc-sticky #TableOfContents a {
+    color: #666;
+    text-decoration: none;
+    display: block;
+    transition: color 0.2s ease;
+}
+
+.dark-mode .toc-sticky #TableOfContents a {
+    color: #999;
+}
+
+.toc-sticky #TableOfContents a:hover {
+    color: #0D53B5;
+}
+
+.toc-sticky #TableOfContents a.toc-active,
+.toc-sidebar a.toc-active {
+    color: #0D53B5 !important;
+    font-weight: 600;
+    border-left: 2px solid #0D53B5;
+    padding-left: 8px;
+    margin-left: -10px;
+}
+
+.dark-mode .toc-sticky #TableOfContents a.toc-active,
+.dark-mode .toc-sidebar a.toc-active {
+    color: #6db3f2 !important;
+    border-left-color: #6db3f2;
+}
+
+/* Show TOC sidebar on larger screens */
+@media screen and (min-width: 1300px) {
+    .toc-sidebar {
+        display: block;
+    }
+}
+
+/**
  * tags page
  */
 

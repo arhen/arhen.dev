@@ -67,6 +67,69 @@ document.addEventListener(
 	false
 );
 
+// TOC highlight based on scroll position
+function initTocHighlight() {
+	var tocLinks = document.querySelectorAll('.toc-sidebar #TableOfContents a');
+	var headings = [];
+	
+	if (tocLinks.length === 0) return;
+	
+	// Get all headings that are linked in TOC
+	tocLinks.forEach(function(link) {
+		var href = link.getAttribute('href');
+		if (href && href.startsWith('#')) {
+			var id = href.substring(1);
+			var heading = document.getElementById(id);
+			if (heading) {
+				headings.push({ id: id, element: heading, link: link });
+			}
+		}
+	});
+	
+	if (headings.length === 0) return;
+	
+	function highlightToc() {
+		var scrollPos = window.scrollY + 120;
+		var currentHeading = null;
+		
+		// Find the current heading
+		for (var i = 0; i < headings.length; i++) {
+			if (headings[i].element.offsetTop <= scrollPos) {
+				currentHeading = headings[i];
+			}
+		}
+		
+		// Update active class
+		headings.forEach(function(h) {
+			h.link.classList.remove('toc-active');
+		});
+		
+		if (currentHeading) {
+			currentHeading.link.classList.add('toc-active');
+		}
+	}
+	
+	// Initial highlight
+	highlightToc();
+	
+	// Highlight on scroll with throttle
+	var ticking = false;
+	window.addEventListener('scroll', function() {
+		if (!ticking) {
+			window.requestAnimationFrame(function() {
+				highlightToc();
+				ticking = false;
+			});
+			ticking = true;
+		}
+	});
+}
+
+// Initialize when DOM is ready
+document.addEventListener('DOMContentLoaded', function() {
+	initTocHighlight();
+});
+
 window.onload = (event) => {
 	var lazyImages = [].slice.call(document.querySelectorAll("img.lazy"));
 

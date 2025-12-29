@@ -28,17 +28,18 @@
                                 </h2>
 							</header>
 							<hr>
-                            {{ if .Site.Params.enableToc }}
-                            {{ if .TableOfContents }}
-                                <div id="toc">
-                                {{ .TableOfContents }}
-                                </div>
-                            {{ end }}
-                            {{ end }}
                             <section id="post-body">
                                 {{ .Content }}
                             </section>
                         </article>
+                        {{ if .TableOfContents }}
+                        <aside class="toc-sidebar">
+                            <div class="toc-sticky">
+                                <h4>Table of Contents</h4>
+                                {{ .TableOfContents }}
+                            </div>
+                        </aside>
+                        {{ end }}
 						<div class="post-footer">
 							{{ if .Site.Params.enableShare }}
 								{{ partial "share.html" . }}
