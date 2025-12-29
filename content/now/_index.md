@@ -1,7 +1,7 @@
 ---
 title: Now
 description: Dscribe what i'm doing right now.
-date: 2025-06-29T20:02:37+07:00
+date: 2025-12-29T20:02:37+07:00
 ---
 
 Halaman ini terinspirasi oleh [Derek Sivers](https://sivers.org/now).
