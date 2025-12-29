@@ -45,7 +45,7 @@ pagerSize = 3
 	# twitterCardImage = "images/avatar.jpg"
 
 	# Add custom assets with their paths relative to the static folder
-	customCSS = ['https://cdn.bootcdn.net/ajax/libs/prism-themes/1.9.0/prism-atom-dark.min.css']
+	customCSS = ['https://cdnjs.cloudflare.com/ajax/libs/prism-themes/1.9.0/prism-atom-dark.min.css']
 	customJS  = ['https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-core.min.js', 'https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/autoloader/prism-autoloader.min.js']
 
 	# The variables below are optionally too and can be used to
