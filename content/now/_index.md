@@ -16,13 +16,11 @@ Produk yang kami kembangkan sudah digunakan oleh beberapa big client seperti L'O
 
 [![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=arhen&theme=github-compact&days=90&hide_border=true)](https://github.com/arhen)
 
+![GitHub Contribution Grid](https://ghchart.rshah.org/arhen)
+
 ## Kemampuan
 
 Tahun ini banyak berkutat dengan Python, TypeScript/JavaScript, dan AI. Saya menggunakan framework agentic yang powerful seperti [Agno](https://www.agno.com/). Ternyata saya lebih tertarik menggunakan [Bun](https://bun.sh) + [Elysia](https://elysiajs.com) untuk development.
-
-## Hubungan
-
-Di tahun ini, akhirnya saya udah nggk sendirian. Menikah dengan [Dewi Rahma Ahmadi](https://www.linkedin.com/in/dewi-rahma-ahmadi-61391ab4/) menjadi salah satu keputusan terbaik yang pernah saya ambil.
 
 ## Interest
 
