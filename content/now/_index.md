@@ -12,11 +12,11 @@ Sudah kurang lebih setahun bekerja di [ALVA Digital](https://alva.digital) sebag
 
 Sejauh ini pekerjaan berjalan mulus dan lancar. Tahun ini kami berhasil meluncurkan 2 produk: [frnd.io](https://frnd.io) dan video stitching. Selain itu, saya juga turut membantu perusahaan [memenangkan beberapa national award](https://www.linkedin.com/posts/alvadigitalnetwork_marketing-excellence-awards-2025-activity-7384528001616760832-GQmv).
 
-Produk yang kami kembangkan sudah digunakan oleh beberapa big client seperti L'Oréal Paris, Garnier, Maybelline, Dove, Silverqueen, bahkan Telkomsel untuk beberapa lini bisnisnya (Simpati, Halo & Corporate, by.U, Home Broadband, Telco). Kami juga telah melayani lebih dari 40+ creative agencies.
+Produk yang kami kembangkan sudah digunakan oleh beberapa big client seperti L'Oréal Paris, Garnier, Maybelline, Dove, Silverqueen, bahkan Telkomsel untuk beberapa lini bisnisnya (Simpati, Halo & Corporate, by.U, Home Broadband, Telco). Kami juga telah melayani lebih dari 40+ creative agencies. Sejak September, kami juga telah memigrasikan seluruh proyek kami dari GitLab ke GitHub.
 
 [![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=arhen&theme=github-compact&area=true&hide_border=true&custom_title=GitHub%20Activity%20Last%203%20Months)](https://github.com/arhen)
 
-![GitHub Contribution Grid](https://ghchart.rshah.org/arhen)
+![GitHub Contribution Grid](https://ghchart.rshah.org/arhen?weeks=12)
 
 ## Kemampuan
 
@@ -24,7 +24,7 @@ Tahun ini banyak berkutat dengan Python, TypeScript/JavaScript, dan AI. Saya men
 
 ## Interest
 
-Untuk tahun depan, saya tertarik untuk mendalami lebih dalam tentang **agentic system**, **low level engineering**, dan **[TUI (Terminal UI)](https://github.com/sst/opentui)**.
+Untuk tahun depan, saya tertarik untuk mendalami lebih dalam tentang **agentic system**, **Efficient Embedding Technique**, dan **[TUI (Terminal UI)](https://github.com/sst/opentui)**.
 
 ## Sosial Media
 
