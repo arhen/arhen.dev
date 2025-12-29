@@ -14,7 +14,7 @@ Sejauh ini pekerjaan berjalan mulus dan lancar. Tahun ini kami berhasil meluncur
 
 Produk yang kami kembangkan sudah digunakan oleh beberapa big client seperti L'Oréal Paris, Garnier, Maybelline, Dove, Silverqueen, bahkan Telkomsel untuk beberapa lini bisnisnya (Simpati, Halo & Corporate, by.U, Home Broadband, Telco). Kami juga telah melayani lebih dari 40+ creative agencies.
 
-[![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=arhen&theme=github-compact&days=90&hide_border=true)](https://github.com/arhen)
+[![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=arhen&theme=github-compact&area=true&hide_border=true&custom_title=GitHub%20Activity%20Last%203%20Months)](https://github.com/arhen)
 
 ![GitHub Contribution Grid](https://ghchart.rshah.org/arhen)
 
