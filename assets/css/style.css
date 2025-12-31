@@ -851,7 +851,7 @@ a.symbol:hover {
     left: calc(50% + 435px + 16px);
     top: 90px;
     width: calc(50vw - 435px - 32px);
-    max-width: 280px;
+    max-width: 350px;
     display: none;
     z-index: 50;
 }
