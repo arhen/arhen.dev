@@ -848,8 +848,9 @@ a.symbol:hover {
 
 .toc-sidebar {
     position: fixed;
-    right: calc((100vw - 870px) / 2 - 220px - 24px);
+    left: calc(50% + 435px + 32px);
     top: 90px;
+    width: 250px;
     display: none;
     z-index: 50;
 }
@@ -934,9 +935,15 @@ a.symbol:hover {
 }
 
 /* Show TOC sidebar on larger screens */
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1400px) {
     .toc-sidebar {
         display: block;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .toc-sidebar {
+        left: calc(50% + 435px + 48px);
     }
 }
 
