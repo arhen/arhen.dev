@@ -1,7 +1,7 @@
 ---
 title: "Prediksi Tahun 2026"
 description: "Prediksi dan tebak-tebakan tentang tren teknologi yang bakal booming di tahun 2026. Dari agentic tools, programming languages, AI models, sampai development tools."
-date: 2026-01-01T10:00:00+07:00
+date: 2026-01-01T01:00:00+08:00
 tags:
   - AI
   - programming
