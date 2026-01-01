@@ -15,7 +15,7 @@ Seperti biasa, tahun baru - prediksi baru. Beberapa mungkin meleset jauh, bebera
 
 ## 1. Agentic Tools
 
-### a. Join Forces
+### Join Forces
 
 Join forces akan jadi hal yang lumrah di tahun ini. Tiap perusahaan bakal mencari partner untuk ambil market yang emang lagi panas-panasnya haha. Beberapa prediksi:
 
@@ -30,11 +30,11 @@ Sources:
 - [OpenCode](https://opencode.ai/) - OpenCode sudah punya 41K+ GitHub stars dan 400K+ monthly developers
 - [Tavily](https://tavily.com/) - Tavily trusted by 800K+ developers, integrated with IBM, JetBrains, AWS
 
-### b. CLI Agent untuk Server Management & Security
+### CLI Agent untuk Server Management & Security
 
 Akan muncul CLI/agentic tool yang fokus pada server management dan security assessment.
 
-### c. MCP: Less Love, Still Standard
+### MCP: Less Love, Still Standard
 
 Model Context Protocol (MCP) dari bakal mendapat lebih sedikit hype dibanding 2025 kali yah, tapi justru makin banyak diadopsi sebagai standar industri. Perusahaan-perusahaan besar dengan API populer akan mulai menyediakan MCP server sebagai cara standar untuk integrasi dengan AI agents. Block, Apollo, Zed, Replit, Codeium, dan Sourcegraph sudah banyak mulai pakai MCP. Nggk best practies, tapi less compexity dari segi developer (apalagi yang vibe code, lol)
 
@@ -42,7 +42,7 @@ Sources:
 
 - [https://www.anthropic.com/news/model-context-protocol](https://www.anthropic.com/news/model-context-protocol) - MCP announcement November 2024
 
-### d. Agent-to-Agent Communication
+### Agent-to-Agent Communication
 
 Protokol komunikasi antar-agent (Agent-to-Agent atau A2A) bakal mulai diadopsi, dimulai dari enterprise. Bayangkan satu agent yang handle customer support, berkomunikasi langsung dengan agent yang handle inventory, tanpa human intervention. Google sudah push A2A protocol. 2026 adalah tahun di mana big whales mulai seriusin.
 
@@ -50,7 +50,7 @@ Sources:
 
 - Google A2A Protocol initiative
 
-### e. Paradigma Baru untuk RAG/Search Knowledge
+### Paradigma Baru untuk RAG/Search Knowledge
 
 Akan muncul mekanisme baru untuk RAG dan knowledge search yang fokus pada efisiensi storage. Compressed/compacted knowledge base yang tetap powerful untuk retrieval. Ini penting karena biaya storage dan compute untuk vector database mulai jadi concern serius. Expect breakthrough di area ini. Agentic AI akan jadi adopsi besar besaran di lini private karna data sensitif dan privasi lebh bisa d kontrol.
 
@@ -99,45 +99,45 @@ Pertempuran makin intens antara Vite dan Bun untuk dominasi JS/TS toolchain. Vit
 
 ## 3. AI Models
 
-### a. Multimodal untuk Video & 3D
+### Multimodal untuk Video & 3D
 
 Focus utama AI models di 2026 adalah multimodal untuk video generation dan 3D/motion assets. Text-to-image sudah saturated. Video pasti frontier berikutnya sih. Expect major improvements di video consistency, length, dan quality.
 
-### b. OpenAI Still Leads
+### OpenAI Still Leads
 
 OpenAI tetap jadi yang pertama release models baru (kalau yang lain rulis duluan, udah pasti _Code Red_ lagi lah).
 
-### c. Peak Models: GPT 6.5 & Claude 6
+### Peak Models: GPT 6.5 & Claude 6
 
 Kita bakal lihat sampai GPT 6.5 dan Claude 6 di 2026. Ini mungkin peak dari scaling laws sebelum kita butuh paradigm shift baru. Performance gains bakal mulai diminishing, dan fokus bergeser ke efficiency dan specialized capabilities.
 
-### d. Gemini Leads Video Models
+### Gemini Leads Video Models
 
 Google bakal unggul di video models dengan Gemini. Mereka punya YouTube dengan data yang unlimited, infrastructure untuk training massive video models.
 
-### e. Music & Voice Models Boom
+### Music & Voice Models Boom
 
 Suno sudah partner dengan Warner Music Group untuk "build the future of interactive music" dan launch Suno Studio - generative audio workstation pertama. Music generation dan voice synthesis jadi mainstream tools untuk content creators. Quality improvements yang signifikan, dan use cases yang makin beragam.
 
-### f. New Players in Video/Music/Voice
+### New Players in Video/Music/Voice
 
 Akan muncul startup baru yang fokus di Video/Music/Voice generation dan jadi contender serius untuk incumbent seperti Adobe. Saya bertaruh pasti banyak dari China.
 
 ## 4. Development Tools
 
-### a. New IDE (Again, sigh)
+### New IDE (Again, sigh)
 
 Akan ada IDE baru lagi.
 
-### b. Mobile Apps untuk CLI AI Agents
+### Mobile Apps untuk CLI AI Agents
 
 Semua CLI AI agents bakal punya mobile app companion. Bukan untuk coding di mobile (please no), tapi untuk monitoring, reviewing, dan approving agent actions on the go. Useful untuk non-stop vibe coding. Eaaak.
 
-### c. Integrations dengan Work Management Apps
+### Integrations dengan Work Management Apps
 
 CLI AI Agents bakal punya native integration dengan Slack, Linear, Lark, dan tools work management lainnya. Bots yang bisa pick up tasks dari Linear, implement, dan submit PR. Human-in-the-loop approval via Slack.
 
-### d. Jujutsu Version Control Goes Hot
+### Jujutsu Version Control Goes Hot
 
 Nah ini dia. **Jujutsu** (jj) version control bakal jadi hot trend dari hari pertama 2026. Git sudah tua dan punya banyak quirks. Jujutsu menawarkan UX dan DX yang lebih baik dengan full Git compatibility. Apalagi Github bermasalah kan belakangan ini. Gitbutler jadi contender utama.
 
