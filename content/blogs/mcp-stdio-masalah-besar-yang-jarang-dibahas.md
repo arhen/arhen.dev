@@ -22,6 +22,20 @@ Sebelum masuk ke masalahnya, sedikit konteks dulu. MCP punya beberapa jenis tran
 
 Nah, masalahnya banyak MCP server di luar sana yang **cuma support stdio**. Dan ini bikin hidup developer susah.
 
+## Visualisasi: Stdio vs Streamable HTTP
+
+Biar gampang kebayang, lihat dua diagram ini.
+
+**Stdio Transport** — setiap user spawn process sendiri:
+
+{{< img src="images/uploads/mcp-stdio-architecture.png" alt="MCP dengan Stdio Transport - setiap user spawn process baru" >}}
+
+**Streamable HTTP Transport** — semua user share satu server:
+
+{{< img src="images/uploads/mcp-streamable-http-architecture.png" alt="MCP dengan Streamable HTTP Transport - semua user share satu server" >}}
+
+Beda banget kan? Yang satu bikin server kamu meledak, yang satu lagi production-ready. Mari kita breakdown lebih detail.
+
 ## Kenapa Stdio Itu Bermasalah?
 
 ### 1. Satu Process Per User
