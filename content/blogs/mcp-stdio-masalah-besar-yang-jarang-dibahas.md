@@ -1,6 +1,6 @@
 ---
-title: "MCP Stdio: Masalah Besar yang Jarang Dibahas"
-description: "Kenapa MCP server yang cuma support stdio transport itu nightmare untuk production multi-user. Breakdown lengkap pakai contoh Agno framework."
+title: "Jangan buat MCP hanya dengan Stdio mode"
+description: "Kenapa MCP server yang cuma support stdio transport itu nightmare untuk production multi-user."
 date: 2026-02-16T10:00:00+07:00
 tags:
   - AI
@@ -8,19 +8,19 @@ tags:
   - MCP
 ---
 
-Kalau kamu pernah build AI agent yang pakai MCP (Model Context Protocol) dan deploy ke production untuk multi-user, pasti pernah ngerasain sakitnya. MCP server yang cuma support stdio transport itu... pain. Besar.
+Kalau kamu pernah build AI agent yang pakai MCP (Model Context Protocol) dan deploy ke production untuk multi-user, pasti pernah ngerasain sakitnya. MCP server yang cuma support stdio transport itu... pain.
 
-Saya mau breakdown kenapa ini jadi masalah serius, terutama buat yang lagi build AI agent pakai framework seperti Agno.
+Saya coba breakdown kenapa ini jadi masalah serius, terutama buat yang lagi build AI agent.
 
 ## Apa Itu MCP Transport?
 
 Sebelum masuk ke masalahnya, sedikit konteks dulu. MCP punya beberapa jenis transport untuk komunikasi antara client dan server:
 
 1. **stdio** — Komunikasi lewat standard input/output. Client spawn server sebagai child process.
-2. **SSE (Server-Sent Events)** — Sudah deprecated.
+2. **SSE (Server-Sent Events)** -- deprecated.
 3. **Streamable HTTP** — Standard baru yang direkomendasikan untuk production.
 
-Nah, masalahnya banyak MCP server di luar sana yang **cuma support stdio**. Dan ini bikin hidup developer susah.
+Nah, masalahnya banyak MCP server di luar sana yang **cuma support stdio**. Dan ini bikin hidup developer susah. At least buat saya pribadi.
 
 ## Visualisasi: Stdio vs Streamable HTTP
 
@@ -34,7 +34,7 @@ Biar gampang kebayang, lihat dua diagram ini.
 
 <img src="/images/uploads/mcp-streamable-http-architecture.svg" alt="MCP dengan Streamable HTTP Transport - semua user share satu server" style="width:100%;max-width:920px;" loading="lazy" />
 
-Beda banget kan? Yang satu bikin server kamu meledak, yang satu lagi production-ready. Mari kita breakdown lebih detail.
+Beda banget kan? Yang satu bikin server kamu meledak, yang satu lagi, scalling seiring bertambah user. Mari kita breakdown lebih detail.
 
 ## Kenapa Stdio Itu Bermasalah?
 
