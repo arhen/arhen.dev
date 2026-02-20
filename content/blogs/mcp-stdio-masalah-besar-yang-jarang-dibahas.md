@@ -28,11 +28,11 @@ Biar gampang kebayang, lihat dua diagram ini.
 
 **Stdio Transport** — setiap user spawn process sendiri:
 
-{{< img src="images/uploads/mcp-stdio-architecture.png" alt="MCP dengan Stdio Transport - setiap user spawn process baru" >}}
+<img src="/images/uploads/mcp-stdio-architecture.svg" alt="MCP dengan Stdio Transport - setiap user spawn process baru" style="width:100%;max-width:920px;" loading="lazy" />
 
 **Streamable HTTP Transport** — semua user share satu server:
 
-{{< img src="images/uploads/mcp-streamable-http-architecture.png" alt="MCP dengan Streamable HTTP Transport - semua user share satu server" >}}
+<img src="/images/uploads/mcp-streamable-http-architecture.svg" alt="MCP dengan Streamable HTTP Transport - semua user share satu server" style="width:100%;max-width:920px;" loading="lazy" />
 
 Beda banget kan? Yang satu bikin server kamu meledak, yang satu lagi production-ready. Mari kita breakdown lebih detail.
 

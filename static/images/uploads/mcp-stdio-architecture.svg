@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 700" font-family="'Segoe UI', system-ui, -apple-system, sans-serif">
+  <defs>
+    <marker id="arrow-dark" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#495057"/>
+    </marker>
+    <marker id="arrow-red" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#e03131"/>
+    </marker>
+    <filter id="shadow" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="1" dy="2" stdDeviation="2" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="920" height="700" rx="12" fill="#ffffff" stroke="#dee2e6" stroke-width="1"/>
+
+  <!-- Title -->
+  <text x="460" y="42" text-anchor="middle" font-size="26" font-weight="700" fill="#1e1e1e">MCP dengan Stdio Transport</text>
+  <text x="460" y="68" text-anchor="middle" font-size="15" fill="#e03131" font-weight="600">Setiap user = spawn process baru</text>
+
+  <!-- Column Headers -->
+  <text x="120" y="105" text-anchor="middle" font-size="13" fill="#868e96" font-weight="600" letter-spacing="1">CLIENTS</text>
+  <text x="450" y="105" text-anchor="middle" font-size="13" fill="#868e96" font-weight="600" letter-spacing="1">MCP PROCESSES</text>
+  <text x="770" y="105" text-anchor="middle" font-size="13" fill="#868e96" font-weight="600" letter-spacing="1">TOOLS INIT</text>
+
+  <!-- === Row 1: User 1 === -->
+  <rect x="30" y="120" width="180" height="64" rx="10" fill="#f3f0ff" stroke="#845ef7" stroke-width="2" filter="url(#shadow)"/>
+  <text x="120" y="148" text-anchor="middle" font-size="13" fill="#845ef7" font-weight="600">Request dari</text>
+  <text x="120" y="168" text-anchor="middle" font-size="16" fill="#5f3dc4" font-weight="700">User 1</text>
+
+  <line x1="215" y1="152" x2="330" y2="152" stroke="#495057" stroke-width="2" marker-end="url(#arrow-dark)" stroke-dasharray="6,3"/>
+  <text x="272" y="143" text-anchor="middle" font-size="11" fill="#e03131" font-weight="600">spawn</text>
+
+  <rect x="335" y="120" width="230" height="64" rx="10" fill="#fff5f5" stroke="#e03131" stroke-width="2" filter="url(#shadow)"/>
+  <text x="450" y="148" text-anchor="middle" font-size="13" fill="#c92a2a" font-weight="600">MCP Process 1</text>
+  <text x="450" y="168" text-anchor="middle" font-size="12" fill="#868e96">(child process - stdio)</text>
+
+  <line x1="570" y1="152" x2="655" y2="152" stroke="#e03131" stroke-width="2" marker-end="url(#arrow-red)" stroke-dasharray="6,3"/>
+  <text x="612" y="143" text-anchor="middle" font-size="11" fill="#e03131">init</text>
+
+  <rect x="660" y="120" width="220" height="64" rx="10" fill="#fff9db" stroke="#f08c00" stroke-width="2" filter="url(#shadow)"/>
+  <text x="770" y="148" text-anchor="middle" font-size="13" fill="#e67700" font-weight="600">Tools A, B, C ...</text>
+  <text x="770" y="168" text-anchor="middle" font-size="12" fill="#e03131" font-weight="600">(duplikat!)</text>
+
+  <!-- === Row 2: User 2 === -->
+  <rect x="30" y="210" width="180" height="64" rx="10" fill="#f3f0ff" stroke="#845ef7" stroke-width="2" filter="url(#shadow)"/>
+  <text x="120" y="238" text-anchor="middle" font-size="13" fill="#845ef7" font-weight="600">Request dari</text>
+  <text x="120" y="258" text-anchor="middle" font-size="16" fill="#5f3dc4" font-weight="700">User 2</text>
+
+  <line x1="215" y1="242" x2="330" y2="242" stroke="#495057" stroke-width="2" marker-end="url(#arrow-dark)" stroke-dasharray="6,3"/>
+  <text x="272" y="233" text-anchor="middle" font-size="11" fill="#e03131" font-weight="600">spawn</text>
+
+  <rect x="335" y="210" width="230" height="64" rx="10" fill="#fff5f5" stroke="#e03131" stroke-width="2" filter="url(#shadow)"/>
+  <text x="450" y="238" text-anchor="middle" font-size="13" fill="#c92a2a" font-weight="600">MCP Process 2</text>
+  <text x="450" y="258" text-anchor="middle" font-size="12" fill="#868e96">(child process - stdio)</text>
+
+  <line x1="570" y1="242" x2="655" y2="242" stroke="#e03131" stroke-width="2" marker-end="url(#arrow-red)" stroke-dasharray="6,3"/>
+  <text x="612" y="233" text-anchor="middle" font-size="11" fill="#e03131">init</text>
+
+  <rect x="660" y="210" width="220" height="64" rx="10" fill="#fff9db" stroke="#f08c00" stroke-width="2" filter="url(#shadow)"/>
+  <text x="770" y="238" text-anchor="middle" font-size="13" fill="#e67700" font-weight="600">Tools A, B, C ...</text>
+  <text x="770" y="258" text-anchor="middle" font-size="12" fill="#e03131" font-weight="600">(duplikat!)</text>
+
+  <!-- === Row 3: User 3 === -->
+  <rect x="30" y="300" width="180" height="64" rx="10" fill="#f3f0ff" stroke="#845ef7" stroke-width="2" filter="url(#shadow)"/>
+  <text x="120" y="328" text-anchor="middle" font-size="13" fill="#845ef7" font-weight="600">Request dari</text>
+  <text x="120" y="348" text-anchor="middle" font-size="16" fill="#5f3dc4" font-weight="700">User 3</text>
+
+  <line x1="215" y1="332" x2="330" y2="332" stroke="#495057" stroke-width="2" marker-end="url(#arrow-dark)" stroke-dasharray="6,3"/>
+  <text x="272" y="323" text-anchor="middle" font-size="11" fill="#e03131" font-weight="600">spawn</text>
+
+  <rect x="335" y="300" width="230" height="64" rx="10" fill="#fff5f5" stroke="#e03131" stroke-width="2" filter="url(#shadow)"/>
+  <text x="450" y="328" text-anchor="middle" font-size="13" fill="#c92a2a" font-weight="600">MCP Process 3</text>
+  <text x="450" y="348" text-anchor="middle" font-size="12" fill="#868e96">(child process - stdio)</text>
+
+  <line x1="570" y1="332" x2="655" y2="332" stroke="#e03131" stroke-width="2" marker-end="url(#arrow-red)" stroke-dasharray="6,3"/>
+  <text x="612" y="323" text-anchor="middle" font-size="11" fill="#e03131">init</text>
+
+  <rect x="660" y="300" width="220" height="64" rx="10" fill="#fff9db" stroke="#f08c00" stroke-width="2" filter="url(#shadow)"/>
+  <text x="770" y="328" text-anchor="middle" font-size="13" fill="#e67700" font-weight="600">Tools A, B, C ...</text>
+  <text x="770" y="348" text-anchor="middle" font-size="12" fill="#e03131" font-weight="600">(duplikat!)</text>
+
+  <!-- === Dots === -->
+  <text x="120" y="405" text-anchor="middle" font-size="28" fill="#adb5bd">. . .</text>
+  <text x="450" y="405" text-anchor="middle" font-size="28" fill="#adb5bd">. . .</text>
+  <text x="770" y="405" text-anchor="middle" font-size="28" fill="#adb5bd">. . .</text>
+
+  <!-- === Row N: User N === -->
+  <rect x="30" y="425" width="180" height="64" rx="10" fill="#f3f0ff" stroke="#845ef7" stroke-width="2" filter="url(#shadow)"/>
+  <text x="120" y="453" text-anchor="middle" font-size="13" fill="#845ef7" font-weight="600">Request dari</text>
+  <text x="120" y="473" text-anchor="middle" font-size="16" fill="#5f3dc4" font-weight="700">User N</text>
+
+  <line x1="215" y1="457" x2="330" y2="457" stroke="#495057" stroke-width="2" marker-end="url(#arrow-dark)" stroke-dasharray="6,3"/>
+  <text x="272" y="448" text-anchor="middle" font-size="11" fill="#e03131" font-weight="600">spawn</text>
+
+  <rect x="335" y="425" width="230" height="64" rx="10" fill="#fff5f5" stroke="#e03131" stroke-width="2" filter="url(#shadow)"/>
+  <text x="450" y="453" text-anchor="middle" font-size="13" fill="#c92a2a" font-weight="600">MCP Process N</text>
+  <text x="450" y="473" text-anchor="middle" font-size="12" fill="#868e96">(child process - stdio)</text>
+
+  <line x1="570" y1="457" x2="655" y2="457" stroke="#e03131" stroke-width="2" marker-end="url(#arrow-red)" stroke-dasharray="6,3"/>
+  <text x="612" y="448" text-anchor="middle" font-size="11" fill="#e03131">init</text>
+
+  <rect x="660" y="425" width="220" height="64" rx="10" fill="#fff9db" stroke="#f08c00" stroke-width="2" filter="url(#shadow)"/>
+  <text x="770" y="453" text-anchor="middle" font-size="13" fill="#e67700" font-weight="600">Tools A, B, C ...</text>
+  <text x="770" y="473" text-anchor="middle" font-size="12" fill="#e03131" font-weight="600">(duplikat!)</text>
+
+  <!-- Bottom Warning Box -->
+  <rect x="30" y="530" width="860" height="100" rx="12" fill="#fff5f5" stroke="#e03131" stroke-width="2" stroke-dasharray="8,4"/>
+
+  <text x="460" y="562" text-anchor="middle" font-size="18" fill="#c92a2a" font-weight="700">N users = N processes = N x tools init = N x memory</text>
+
+  <text x="460" y="590" text-anchor="middle" font-size="14" fill="#868e96">100 users = 100 child processes = ~10GB RAM</text>
+  <text x="460" y="614" text-anchor="middle" font-size="14" fill="#868e96">Setiap process: spawn runtime + init tools + load dependencies. Boros!</text>
+
+  <!-- Resource bars -->
+  <text x="110" y="660" text-anchor="end" font-size="13" fill="#e03131" font-weight="600">CPU</text>
+  <rect x="120" y="648" width="320" height="16" rx="4" fill="#ffc9c9" stroke="#e03131" stroke-width="1"/>
+  <rect x="120" y="648" width="290" height="16" rx="4" fill="#e03131"/>
+  <text x="450" y="660" font-size="12" fill="#c92a2a" font-weight="600">HIGH</text>
+
+  <text x="570" y="660" text-anchor="end" font-size="13" fill="#e03131" font-weight="600">MEM</text>
+  <rect x="580" y="648" width="320" height="16" rx="4" fill="#ffc9c9" stroke="#e03131" stroke-width="1"/>
+  <rect x="580" y="648" width="300" height="16" rx="4" fill="#e03131"/>
+  <text x="910" y="660" font-size="12" fill="#c92a2a" font-weight="600">HIGH</text>
+</svg>

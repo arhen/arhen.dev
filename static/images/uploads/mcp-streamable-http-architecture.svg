@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 700" font-family="'Segoe UI', system-ui, -apple-system, sans-serif">
+  <defs>
+    <marker id="arrow-green" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2f9e44"/>
+    </marker>
+    <marker id="arrow-blue" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#1971c2"/>
+    </marker>
+    <filter id="shadow" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="1" dy="2" stdDeviation="2" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="920" height="700" rx="12" fill="#ffffff" stroke="#dee2e6" stroke-width="1"/>
+
+  <!-- Title -->
+  <text x="460" y="42" text-anchor="middle" font-size="26" font-weight="700" fill="#1e1e1e">MCP dengan Streamable HTTP Transport</text>
+  <text x="460" y="68" text-anchor="middle" font-size="15" fill="#2f9e44" font-weight="600">Semua user share satu server instance</text>
+
+  <!-- Column Headers -->
+  <text x="120" y="105" text-anchor="middle" font-size="13" fill="#868e96" font-weight="600" letter-spacing="1">CLIENTS</text>
+  <text x="460" y="105" text-anchor="middle" font-size="13" fill="#868e96" font-weight="600" letter-spacing="1">TRANSPORT</text>
+
+  <!-- === User 1 === -->
+  <rect x="30" y="125" width="180" height="58" rx="10" fill="#f3f0ff" stroke="#845ef7" stroke-width="2" filter="url(#shadow)"/>
+  <text x="120" y="150" text-anchor="middle" font-size="13" fill="#845ef7" font-weight="600">Request dari</text>
+  <text x="120" y="170" text-anchor="middle" font-size="16" fill="#5f3dc4" font-weight="700">User 1</text>
+
+  <!-- === User 2 === -->
+  <rect x="30" y="203" width="180" height="58" rx="10" fill="#f3f0ff" stroke="#845ef7" stroke-width="2" filter="url(#shadow)"/>
+  <text x="120" y="228" text-anchor="middle" font-size="13" fill="#845ef7" font-weight="600">Request dari</text>
+  <text x="120" y="248" text-anchor="middle" font-size="16" fill="#5f3dc4" font-weight="700">User 2</text>
+
+  <!-- === User 3 === -->
+  <rect x="30" y="281" width="180" height="58" rx="10" fill="#f3f0ff" stroke="#845ef7" stroke-width="2" filter="url(#shadow)"/>
+  <text x="120" y="306" text-anchor="middle" font-size="13" fill="#845ef7" font-weight="600">Request dari</text>
+  <text x="120" y="326" text-anchor="middle" font-size="16" fill="#5f3dc4" font-weight="700">User 3</text>
+
+  <!-- === Dots === -->
+  <text x="120" y="375" text-anchor="middle" font-size="28" fill="#adb5bd">. . .</text>
+
+  <!-- === User N === -->
+  <rect x="30" y="395" width="180" height="58" rx="10" fill="#f3f0ff" stroke="#845ef7" stroke-width="2" filter="url(#shadow)"/>
+  <text x="120" y="420" text-anchor="middle" font-size="13" fill="#845ef7" font-weight="600">Request dari</text>
+  <text x="120" y="440" text-anchor="middle" font-size="16" fill="#5f3dc4" font-weight="700">User N</text>
+
+  <!-- Arrows from users converging -->
+  <line x1="215" y1="154" x2="390" y2="260" stroke="#2f9e44" stroke-width="2" marker-end="url(#arrow-green)"/>
+  <line x1="215" y1="232" x2="390" y2="272" stroke="#2f9e44" stroke-width="2" marker-end="url(#arrow-green)"/>
+  <line x1="215" y1="310" x2="390" y2="290" stroke="#2f9e44" stroke-width="2" marker-end="url(#arrow-green)"/>
+  <line x1="215" y1="424" x2="390" y2="305" stroke="#2f9e44" stroke-width="2" marker-end="url(#arrow-green)"/>
+
+  <!-- HTTP labels on arrows -->
+  <rect x="270" y="190" width="48" height="20" rx="4" fill="#ebfbee"/>
+  <text x="294" y="204" text-anchor="middle" font-size="11" fill="#2f9e44" font-weight="700">HTTP</text>
+
+  <rect x="285" y="255" width="48" height="20" rx="4" fill="#ebfbee"/>
+  <text x="309" y="269" text-anchor="middle" font-size="11" fill="#2f9e44" font-weight="700">HTTP</text>
+
+  <rect x="285" y="285" width="48" height="20" rx="4" fill="#ebfbee"/>
+  <text x="309" y="299" text-anchor="middle" font-size="11" fill="#2f9e44" font-weight="700">HTTP</text>
+
+  <rect x="270" y="355" width="48" height="20" rx="4" fill="#ebfbee"/>
+  <text x="294" y="369" text-anchor="middle" font-size="11" fill="#2f9e44" font-weight="700">HTTP</text>
+
+  <!-- Load Balancer Box -->
+  <rect x="395" y="228" width="140" height="110" rx="12" fill="#e7f5ff" stroke="#1971c2" stroke-width="2" filter="url(#shadow)"/>
+  <text x="465" y="270" text-anchor="middle" font-size="14" fill="#1971c2" font-weight="700">Load</text>
+  <text x="465" y="290" text-anchor="middle" font-size="14" fill="#1971c2" font-weight="700">Balancer</text>
+  <text x="465" y="318" text-anchor="middle" font-size="11" fill="#868e96">(optional)</text>
+
+  <!-- Arrow from LB to Server -->
+  <line x1="540" y1="283" x2="610" y2="283" stroke="#1971c2" stroke-width="2.5" marker-end="url(#arrow-blue)"/>
+
+  <!-- MCP Server Big Box -->
+  <rect x="615" y="120" width="270" height="370" rx="14" fill="#ebfbee" stroke="#2f9e44" stroke-width="2.5" filter="url(#shadow)"/>
+
+  <!-- Server title area -->
+  <text x="750" y="155" text-anchor="middle" font-size="20" fill="#1e1e1e" font-weight="700">MCP Server</text>
+  <rect x="670" y="165" width="160" height="24" rx="6" fill="#d3f9d8"/>
+  <text x="750" y="182" text-anchor="middle" font-size="12" fill="#2f9e44" font-weight="600">Streamable HTTP</text>
+
+  <!-- Divider -->
+  <line x1="640" y1="205" x2="860" y2="205" stroke="#b2f2bb" stroke-width="1.5"/>
+
+  <!-- Tools inside server -->
+  <text x="750" y="230" text-anchor="middle" font-size="13" fill="#868e96" font-weight="600" letter-spacing="1">SHARED TOOLS</text>
+
+  <rect x="645" y="245" width="210" height="44" rx="8" fill="#fff9db" stroke="#f08c00" stroke-width="1.5"/>
+  <text x="750" y="273" text-anchor="middle" font-size="15" fill="#e67700" font-weight="600">Tool A</text>
+
+  <rect x="645" y="300" width="210" height="44" rx="8" fill="#fff9db" stroke="#f08c00" stroke-width="1.5"/>
+  <text x="750" y="328" text-anchor="middle" font-size="15" fill="#e67700" font-weight="600">Tool B</text>
+
+  <rect x="645" y="355" width="210" height="44" rx="8" fill="#fff9db" stroke="#f08c00" stroke-width="1.5"/>
+  <text x="750" y="383" text-anchor="middle" font-size="15" fill="#e67700" font-weight="600">Tool C</text>
+
+  <text x="750" y="425" text-anchor="middle" font-size="13" fill="#868e96">. . .</text>
+
+  <!-- "Init sekali" label -->
+  <rect x="665" y="445" width="170" height="28" rx="6" fill="#d3f9d8"/>
+  <text x="750" y="464" text-anchor="middle" font-size="13" fill="#2f9e44" font-weight="700">Init sekali, shared!</text>
+
+  <!-- Bottom Success Box -->
+  <rect x="30" y="530" width="860" height="100" rx="12" fill="#ebfbee" stroke="#2f9e44" stroke-width="2" stroke-dasharray="8,4"/>
+
+  <text x="460" y="562" text-anchor="middle" font-size="18" fill="#2f9e44" font-weight="700">N users = 1 server = 1x tools init = constant memory</text>
+
+  <text x="460" y="590" text-anchor="middle" font-size="14" fill="#868e96">100 users = 1 server instance = ~500MB RAM</text>
+  <text x="460" y="614" text-anchor="middle" font-size="14" fill="#868e96">Horizontal scaling via load balancer. Production-ready!</text>
+
+  <!-- Resource bars -->
+  <text x="110" y="660" text-anchor="end" font-size="13" fill="#2f9e44" font-weight="600">CPU</text>
+  <rect x="120" y="648" width="320" height="16" rx="4" fill="#d3f9d8" stroke="#2f9e44" stroke-width="1"/>
+  <rect x="120" y="648" width="60" height="16" rx="4" fill="#2f9e44"/>
+  <text x="450" y="660" font-size="12" fill="#2f9e44" font-weight="600">LOW</text>
+
+  <text x="570" y="660" text-anchor="end" font-size="13" fill="#2f9e44" font-weight="600">MEM</text>
+  <rect x="580" y="648" width="320" height="16" rx="4" fill="#d3f9d8" stroke="#2f9e44" stroke-width="1"/>
+  <rect x="580" y="648" width="50" height="16" rx="4" fill="#2f9e44"/>
+  <text x="910" y="660" font-size="12" fill="#2f9e44" font-weight="600">LOW</text>
+</svg>
