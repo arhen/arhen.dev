@@ -6,6 +6,6 @@
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^7.0.2",
     "cssnano": "^7.1.2",
-    "postcss": "^8.5.6"
+    "postcss": "^8.5.25"
   }
 }
