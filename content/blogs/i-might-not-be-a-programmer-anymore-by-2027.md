@@ -41,13 +41,13 @@ Then came Windsurf, Trae, the damn Cursor and Antigravity. Tools that don't just
 
 And now? We have CLI agents. Claude Code, Codex, OpenCode, tools that can navigate your entire codebase, run tests, commit changes, and even create pull requests. You give them a task, walk away to make coffee, and come back to a working implementation. Holy shit.
 
-We went from "AI helps me code faster" to "AI codes, I review." That escalated quickly, to be honest.
+We went from "AI helps me code faster" to "AI codes, I review." That is ..... wow. I cant even remember last time autocompletr a line of code haha.
 
-What started as curiosity about LLMs turned into watching my entire profession get redefined in real-time. The way we write code, the tools we use, even the fundamental question of "what does a programmer actually do?", everything changed. And I'm still not sure if I should be excited or terrified. Probably both :(
+So what started as curiosity about LLMs turned into watching my entire profession get redefined in real-time xd. The way we write code, the tools we use, even the fundamental question of "what does a programmer actually do?", everything changed. And I'm still not sure if I should be excited or terrified. Probably both :(
 
 ## The Ceiling Is Too Damn High
 
-Here's the uncomfortable truth that nobody wants to talk about: the barrier to entry for programming just got obliterated, but paradoxically, it's never been harder for newcomers to stay relevant.
+THE TRUTH is 'the barrier to entry for programming just got obliterated', but paradoxically it's never been harder for newcomers to stay relevant.
 
 Let's take a look at this chart from [@erikbryn's research paper](https://x.com/erikbryn):
 
@@ -61,19 +61,21 @@ What's happening is a compression of the entry-level job market. The tasks that 
 
 Meanwhile, look at the purple and brown lines: **Mid-Career 2 (41-49)** and **Senior (50+)** are actually _growing_. Experience, context, and architectural knowledge are becoming more valuable, not less. These are the people who know _what_ to build and _why_ — skills that AI can't easily replicate. Yet.
 
-Think about it. If someone with zero coding experience can now build and ship a functional app in a weekend using AI tools (and they do, every single weekend, my Twitter timeline is proof), what's the value proposition for a junior developer who spent years learning the fundamentals?
+NOW try think about it. If someone with zero coding experience can now build and ship a functional app in a weekend using AI tools (and they do, every single weekend, at lesst my X's For You page is full of that things), what's the value proposition for a junior developer who spent years learning the fundamentals?
 
-The ceiling is so high now. Senior engineers with deep system knowledge? More valuable than ever. But early-career developers doing low-context work? That's exactly the work AI handles best. It's a brutal reality, and I genuinely feel, feel sooo bad for CS or related fresh grads who are entering the job market today.
+The ceiling is so high now. Senior engineers with deep system knowledge? More valuable than ever. But early-career developers doing low-context work? That's exactly the work AI handles best. It's a brutal reality, and I genuinely feel, feeeeelll sooo baaaaaaad for CS or related fresh grads who are entering the job market today.
 
-## The Dilemma Nobody Talks About
+## The Dilemma
 
-Back in day, my job was pretty straightforward: I spent roughly 80% of my time actually writing code, and the remaining 20% reviewing other people's work. That was the rhythm. Code, review, repeat. Simple. Predictable. Comfortable.
+Back in day, my job was pretty straightforward: I spent roughly 80% of my time actually writing code, and the remaining 20% reviewing other people's work. That was the rhythm. 
 
-Now? It's completely different. I barely write code manually anymore, maybe 10% of my time at most. Instead, I spend about 20% of my day prompting and guiding AI, crafting the right instructions to get the output I need. The bulk of my work, easily atleast 50%, is working alongside AI assistants, reviewing their suggestions, iterating on outputs, course-correcting when they go off track. And that remaining 20% is still code review, but even that's increasingly assisted by AI tools that catch things before I do.
+Code, review, repeat. Simple. Predictable. Comfortable.
+
+Now? It's completely different. I barely write code manually anymore, maybe 10% of my time at most (??). Instead, I spend about 20% of my day prompting and guiding AI, crafting the right instructions to get the output I need. The bulk of my work, easily atleast 50%, is working alongside AI assistants, reviewing their suggestions, iterating on outputs, course-correcting when they go off track. And that remaining 20% is still code review, but even that's increasingly assisted by AI tools that catch things before I do.
 
 This is why I said "programmer" in the title. By 2027, I might not "write" code and "program" anymore. But I'll still be a **Software Engineer**. Someone who understands engineering principles, system design, scalability, trade-offs. Someone who can architect a project and then hand it off to AI assistants to implement. The job title stays. The actual work changes completely.
 
-Another things that gigled me up is at work, we're pushed to use AI tools to be more productive. "Adopt or get left behind.". But here's the catch: if AI makes each developer 3-5x more productive, does the company still need the same headcount? The math is brutal. Companies might lay off 50-70% of their tech employees and still ship the same amount of work. And it's not hypothetical anymore, it's happening.
+Another things that gigled me up is at work, we're pushed to use AI tools to be more productive. "Adopt or get left behind.". But if AI makes each developer 3-10x more productive, does the company still need the same headcount? try do the match by yourself and you will find out it is not fair for us. Companies might lay off 50-70% of their tech employees and still ship the same amount of work. And it's not hypothetical anymore, it's happening.
 
 Meanwhile, non-programmers are now building and launching products faster than ever. Every week on Twitter/X, there's a new indie hacker who "built this in a weekend with AI" and it's actually good. The barrier to building software has collapsed, and suddenly everyone can compete. The tech bubble on social media is flooded with launches, side projects, SaaS products, all built at lightning speed by people who couldn't code two years ago.
 
@@ -81,7 +83,7 @@ It's overwhelming. And a little bit funny in a sad way.
 
 ## My Personal Take
 
-I'm not going to pretend this year was easy.
+I'm not going to pretend this year was easy nor thinking everything is gonna be okay.
 
 Professionally, 2025 has been full of ups and downs. Job security feels different now. The dilemmas are real: Am I still relevant? How do I stay competitive? What skills actually matter anymore? These questions keep me up at night.
 
@@ -89,18 +91,34 @@ Professionally, 2025 has been full of ups and downs. Job security feels differen
 
 The constant stream of "I shipped X in 24 hours with AI" posts creates this pressure that's hard to escape. When you have a family, limited time, and responsibilities outside of work, it's tough. You feel like you're falling behind. Behind on news, behind on technology, behind on ideas. Everyone else seems to be building the future while you're just trying to keep up.
 
-And here's the thing nobody talks about: to actually be productive with AI, not just vibe coding or generating AI slop, but producing real, production-quality work, you need to pay up. Cursor Pro, Claude Pro, ChatGPT Plus, API credits for your agentic workflows, we're talking $50+ per month minimum. If you don't subscribe, you fall behind. If you do subscribe, there's this pressure to justify the cost by being constantly productive. It is a "Pay to win" in a way, sadly.
+And to actually be productive with AI, not just vibe coding or generating AI slop, but producing real, production-quality work, you need to pay up brooo. Cursor Pro, Claude Pro, ChatGPT Plus, API credits for your agentic workflows, we're talking $50+ per month minimum. If you don't subscribe, you fall behind. If you do subscribe, there's this pressure to justify the cost by being constantly productive. It is a "Pay to win" in a way, sadly. Freaking like a shitty game flashed as ads ob my social media.
 
-## So What's the Plan?
+## So So???
 
 Actually, I don't really have the answers. I think nobody does. We're all figuring this out in real-time, together, confused but trying our best.
 
-But here's my plan: by 2026, I'm shifting focus. Less coding, more architecting. Less implementation, more review. Less typing, more thinking. The goal is to become the kind of engineer who designs systems before AI implements them, someone who breaks down problems, hands off implementation to AI, and focuses on review and validation.
+But my plans are clear; by 2026, I'm shifting focus. 
 
-I'll still be a **Software Engineer**. Just not a "programmer" in the traditional sense.
+Less coding, more architecting. 
 
-And honestly? That's kind of exciting. Terrifying, but exciting. Like riding a roller coaster that was built by AI and you're not 100% sure it was tested properly.
+Less implementation, more review. 
 
-By 2027, I might not write a single line of code. But I'll still be engineering software. I'll still be solving problems. I'll still be building things that matter. Just... differently.
+Less typing, more thinking. 
 
-See you on the other side. Hopefully we'll both still have jobs by then. hahaha
+The goal is to become the kind of engineer who designs systems before AI implements them, someone who breaks down problems, hands off implementation to AI, and focuses on review and validation.
+
+I'll still be a **Software Engineer** to grab some money for my old days later. Just not a "programmer" in the traditional sense.
+
+And honestly? That's kind of exciting. Terrifying, but exciting. Like riding a roller coaster that was built by AI and you're not 100% sure it was tested properly and just goes and baaaaam xd
+
+By 2027, I might not write a single line of code. 
+
+But I'll still be engineering software. 
+
+I'll still be solving problems. 
+
+I'll still be building things that matter. 
+
+Just... differently.
+
+So see you on the other side. Hopefully we'll both still have jobs by then. hahaha
